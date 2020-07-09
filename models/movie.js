@@ -6,4 +6,4 @@ name: String,
 genre: String,
 directorId: String,
 })
-module.exports = mongoose.model("Movies",movieSchema)
+module.exports = mongoose.model("Movie",movieSchema)
